@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- VK Widget -->
+    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="dist/css/lightbox.css">
+    <link rel="stylesheet" href="style/leonenko.css">
+    <title>leonenko-ph</title>
+</head>
+
+<body>
+
+
+
+    <!-- HEADER -->
+
+
+    <header>
+
+        <div class="container header-cont">
+
+            <nav class="nav_head">
+
+                <div class="logo  "><img src="style/ph/logo.png" alt=""></div>
+
+                <ul class="menu__nav nav-links">
+
+                    <li class="nav__link"><a href="" data-scroll=".about">Обо мне</a></li>
+                    <li class="nav__link"><a href="" data-scroll=".gallery">Галерея</a></li>
+                    <li class="nav__link"><a href="" data-scroll=".services">Услуги</a></li>
+                    <li class="nav__link"><a href="" data-scroll=".feedback">Отзывы</a></li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- MAIN -->
+
+
+
+    <section class="main">
+        <div class="container">
+            <div class="row justify-content-center">
+                <h1 class=" ">Фотограф Игорь Леоненко</h1>
+                <h2>Фотографирую в Евпатории и Крыму. Так же, есть возможность выезда в другие регионы России.</h2>
+                <div class="w-100"></div>
+                <button type="button" id="sendMail" class="btn btn-outline-light ">Отправить заявку</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+
+    <section class="about">
+
+        <div class="container about-container">
+
+
+
+            <div class="row justify-content-center">
+
+                <h1> Привет, друг! Ищешь фотографа, с которым легко и просто? Тогда давай знакомиться!</h1>
+
+                <h2>Меня зовут Игорь, я из Евпатории (работаю по всему Крыму). Отдаю предпочтение живой и искренней
+                    фотографии, без принужденного позирования. Поэтому ваши сомнения по типу «я не модель» не
+                    принимаются, я все равно сделаю вас красивыми, хотите вы этого или нет😃 Моя основная специализация
+                    – свадебная и семейная фотография. Так же, я люблю воплощать интересные идеи, образы, проявлять
+                    индивидуальный подход в создании интересной истории, в которой главный герой – Вы! Поэтому, если вы
+                    хотите что-то настоящее, живое и нетипичное - вы по адресу) Свяжитесь со мной и уже сегодня, мы
+                    начнем планировать вашу фотосъемку!😊</h2>
+
+                <div class="slider"></div>
+
+
+
+            </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!-- SLIDER -->
+
+
+
+
+    <section class="slider infinity-slider">
+
+
+        <div class="slider-container">
+            <img src="style/ph/slider/1.jpg" alt="">
+            <img src="style/ph/slider/2.jpg" alt="">
+            <img src="style/ph/slider/3.jpg" alt="">
+            <img src="style/ph/slider/4.jpg" alt="">
+            <img src="style/ph/slider/5.jpg" alt="">
+            <img src="style/ph/slider/6.jpg" alt="">
+        </div>
+
+        <div class="butn ">
+            <div class="btn-infinity-r"> <i class="fas fa-chevron-left "></i></i></div>
+            <div class="btn-infinity-l"> <i class="fas fa-chevron-right "></i></i></div>
+        </div>
+
+    </section>
+
+    <!-- GALLERY -->
+
+
+    <section class="gallery">
+        <div class=" ">
+            <h1>Галерея</h1>
+            <div class="grid-gallery ">
+                <div class="glr-item glr-item1"></div>
+                <div class="glr-item glr-item2"></div>
+                <div class="glr-item glr-item3"></div>
+                <div class="glr-item glr-item4"></div>
+                <div class="glr-item glr-item5"></div>
+                <div class="glr-item glr-item6"></div>
+                <div class="glr-item glr-item7"></div>
+                <div class="glr-item glr-item8"></div>
+                <div class="glr-item glr-item9"></div>
+                <div class="glr-item glr-item10"></div>
+                <div class="glr-item glr-item11"></div>
+                <div class="glr-item glr-item12"></div>
+                <div class="glr-item glr-item13"></div>
+                <div class="glr-item glr-item14"></div>
+                <div class="glr-item glr-item15"></div>
+                <div class="glr-item glr-item16"></div>
+                <div class="glr-item glr-item17"></div>
+                <div class="glr-item glr-item18"></div>
+            </div>
+
+            <div class="gallery-btn row justify-content-center">
+                <button type="button" id="myBtn" class="btn btn-modal btn-outline-dark buttn about-btn ">Отправить
+                    заявку</button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content container">
+            <div class="row"></div>
+            <span class="close">&times;</span>
+            <hr>
+
+            <h1 style="font-size: 32px; text-align: left; color: #083069;">Как нам с Вами связаться?</h1>
+            <h2 style="font-size: 14px;">Укажите номер телефона, email или любой удобный вам способ связи. Или свяжитесь
+                с нами</h2>
+            <h2 style="font-size: 14px;">+7 (905) 510-10-20</h2>
+            <hr>
+            <form>
+                <!-- Hidden Required Fields -->
+                <input type="hidden" name="project_name" value="Sawoni Web">
+                <input type="hidden" name="admin_email" value="shaggy.za.5727@gmail.com">
+                <input type="hidden" name="form_subject" value="Form">
+                <!-- END Hidden Required Fields -->
+
+
+                <input type="text" name="Name" placeholder="Имя" id="email" class="col-xl-5 frm" required><br><br>
+                <input type="text" name="Phone" class="col-xl-5 frm" placeholder="Введите номер/e-mail"><br><br>
+
+                <button id="sendMail" class="btn btn-modal btn-outline-dark btn-sm ">Отправить заявку</button>
+
+            </form>
+
+
+        </div>
+
+    </div>
+
+
+    <!-- SERVICES -->
+
+    <section class="services">
+
+        <div class="container services-cont">
+
+            <h1>Услуги</h1>
+
+            <div class="row justify-content-around serv-boxes">
+
+                <div class="serv-box serv-box1 col-2 row justify-content-center">
+
+                    <div class="serv-bg-hover  row justify-content-center">
+
+
+                        <p>Персональная фотосъемка</p>
+
+                        <button type="button" id="" class="btn btn-outline-light serv-btn"><a class="btn-a" href="">
+                                Подробнее</a></button>
+                    </div>
+
+                </div>
+
+                <div class="serv-box serv-box2 col-2 row justify-content-center">
+
+                    <div class="serv-bg-hover  row justify-content-center">
+
+
+                        <p>Семейное фотосъемка</p>
+
+                        <button type="button" id="" class="btn btn-outline-light serv-btn"><a class="btn-a" href="">
+                                Подробнее</a></button>
+                    </div>
+
+                </div>
+
+                <div class="serv-box serv-box3 col-2 row  ">
+
+                    <div class="serv-bg-hover  row justify-content-center">
+
+                        <p>Свадебная фотосъемка</p>
+
+                        <button type=" button" id="" class="btn btn-outline-dark serv-btn"><a href="">
+                                Подробнее</a></button>
+
+                    </div>
+                </div>
+
+                <div class="serv-box serv-box4 col-2 row justify-content-center">
+
+                    <div class="serv-bg-hover  row justify-content-center">
+
+
+                        <p>Love Story</p>
+
+                        <button type="button" id="" class="btn btn-outline-light serv-btn"><a class="btn-a" href="">
+                                Подробнее</a></button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FEEDBACK -->
+
+    <section class="feedback">
+        <div class="container feedback-cont">
+            <h1>Отзывы</h1>
+
+            <div class="row">
+                <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
+
+
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item row justify-content-center ">
+                            <div class="fb-face col "></div>
+                            <h1>Спасибо, Игорёк, за клёвую фотосъёмку, за минимум времени ты сделал максимум и результат
+                                меня впечатлил!! Оперативно, профессионально, самоотверженно! Огромный тебе респект,
+                                развивайся семимильными шагами!</h1>
+                        </div>
+
+                        <div class="carousel-item row  justify-content-center active">
+                            <div class="fb-face col "></div>
+                            <h1>Спасибо, Игорёк, за клёвую фотосъёмку, за минимум времени ты сделал максимум и результат
+                                меня впечатлил!! Оперативно, профессионально, самоотверженно! Огромный тебе респект,
+                                развивайся семимильными шагами!</h1>
+                        </div>
+
+                        <div class="carousel-item row justify-content-center">
+                            <div class="fb-face  col "></div>
+                            <h1>Спасибо, Игорёк, за клёвую фотосъёмку, за минимум времени ты сделал максимум и результат
+                                меня впечатлил!! Оперативно, профессионально, самоотверженно! Огромный тебе респект,
+                                развивайся семимильными шагами!</h1>
+                        </div>
+
+                        <div class="carousel-item row justify-content-center">
+                            <div class="fb-face  col "></div>
+                            <h1>Спасибо, Игорёк, за клёвую фотосъёмку, за минимум времени ты сделал максимум и результат
+                                меня впечатлил!! Оперативно, профессионально, самоотверженно! Огромный тебе респект,
+                                развивайся семимильными шагами!</h1>
+                        </div>
+
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- FOOTER -->
+
+
+
+    <footer>
+
+        <div class="container footer-cont">
+
+            <div class="row justify-content-center">
+
+                <a href="https://vk.com/igorleonenko_pro" class="vk"><i class="fab fa-vk col-4  fa-lg"></i></a>
+                <a href="https://www.instagram.com/leonenko.pro/" class="ig">
+                    <i class="fab fa-instagram col-4 fa-lg"></i></a>
+                <a href="mailto:" class="mail"><i class="far fa-envelope col-4 fa-lg"></i></a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="dist/js/lightbox-plus-jquery.js"></script>
+    <script src="script/leonenko.js "></script>
+    <script src="https://use.fontawesome.com/2697cffe5b.js"></script>
+    <script src="https://kit.fontawesome.com/c71223184d.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+
+    <!-- BOOTSTRAP -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+
+
+
+</body>
+
+</html>
